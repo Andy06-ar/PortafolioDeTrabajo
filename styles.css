@@ -1,0 +1,58 @@
+header{
+    grid-area: header;
+    background-color: rgb(136, 214, 189);
+    font-family: "Sixtyfour";
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+
+}
+body{
+    font-family: "Oswald";
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr; /* 2 columnas la primera es la fracción de acerca de mí*/
+    font-family: "Oswald";
+    gap: 10px; /*ancho entre filas y columnas (20)*/
+    grid-template-areas: 
+    "header header"
+    "sidebar content"
+    "footer footer";
+}
+main{
+    
+    grid-area: content;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: inherit;
+    
+}
+article{
+    padding: 10px;
+    border: 2px solid rgb(26, 75, 70);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 40px;
+    border-top-style: double;
+    background-color: rgb(186, 220, 221);
+}
+p{
+    color: black;
+    font-family: "Oswald";
+    font-size: 15px;
+    font-weight: 100;
+
+}
+aside{
+    border-right: 1px solid rgb(26, 75, 70);
+    grid-area: sidebar;
+    background-color: cadetblue;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 40px;
+    border-top-style: double;
+}
