@@ -17,6 +17,9 @@ h1{
 h2{
     color: #d7d5b6;
 }
+h3{
+    text-align: center;
+}
 .container{
     display: grid;
     grid-template-columns: 1fr 3fr; /* 2 columnas la primera es la fracción de acerca de mí*/
