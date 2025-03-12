@@ -1,6 +1,6 @@
 header{
     grid-area: header;
-    background-color: #ead196;
+    background-color: #bdac85;
     font-family: "Sixtyfour";
     text-align: center;
     color: aliceblue;
@@ -53,7 +53,7 @@ p{
     color: #ffffff;
     font-family: "Oswald";
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 600;
 
 }
 .descripcion{
